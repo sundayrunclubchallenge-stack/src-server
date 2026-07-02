@@ -1,3 +1,6 @@
+[phases.setup]
+nixPkgs = ["nodejs_22"]
+
 [phases.install]
 cmds = ["npm install"]
 
@@ -5,4 +8,4 @@ cmds = ["npm install"]
 cmds = []
 
 [start]
-cmd = "node src/index.js"
+cmd = "node index.js"
